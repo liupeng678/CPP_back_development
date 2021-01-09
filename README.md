@@ -1,4 +1,4 @@
-# CPP_back_development
+# CPP_back_development ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 
 
@@ -9,9 +9,9 @@ In this tutorial, I will describe the routine about C++ background development. 
 ## Basic level (important)
  1. Develop and  design software 
  2. Introducing  basic grammar of cpp , hard points and STL.
- 3.  Data structure and design modle.
- 4. others of  508.
- 5.  leetcode  coding.
+ 3. Data structure and design modle.
+ 4. Others of  508.
+ 5. Leetcode  coding.
 
 ## Middle level (not so important)
 
