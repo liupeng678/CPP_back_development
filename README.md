@@ -34,7 +34,7 @@ In this tutorial, I will describe the routine about C++ background development. 
 7. project One
 
 
-## High level ()
+## High level (not so important)
 
 1. open source analysis.
 2. milddle components .
@@ -45,18 +45,15 @@ In this tutorial, I will describe the routine about C++ background development. 
 7. Project Two
 
 
-## GO level
+## GO level  (not so important)
 1. basci grammar
 2.  project .....
 
 
 
-## webtrc or ffmpage.
+## webtrc or ffmpage.  (not so important)
 
 wating for adding.
 
 
 
-# Basic level (important)
-
-## 1. Develop and  design software
