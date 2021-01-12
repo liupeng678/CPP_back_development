@@ -47,7 +47,7 @@ In this tutorial, I will describe the routine about C++ background development. 
 
 ## GO level  (not so important)
 1. basci grammar
-2.  project .....
+2. project .....
 
 
 
