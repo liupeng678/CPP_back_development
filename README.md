@@ -8,21 +8,31 @@ In this tutorial, I will describe the routine about C++ background development. 
 
 ## Basic level (important)
  1. Develop and  design software      [here is blog](https://blog.csdn.net/liupeng19970119/article/details/112471736)
+
  2. Introducing  basic grammar of cpp , hard points and STL.  [here is blog](https://blog.csdn.net/liupeng19970119/article/details/112220840)
 
  3. Data structure and design modle.   [here is blog](https://blog.csdn.net/liupeng19970119/article/details/112182220)
+
  4. Others of  508.
+
  5. Leetcode  coding.
 
 ## Middle level (not so important)
 
 1. linux development (multithreading, network and maintenance commands ) 
+
 2. The background components(zookeeper, nginx, redis,mysql, mongoDB )
+
 3. Other open source components.
+
 4. code management and framework (makefile, github)
+
 5. test performance.
+
 6. QT design
+
 7. project One
+
 
 ## High level ()
 
