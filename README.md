@@ -3,7 +3,7 @@
 
 
 # Introduction
-In this tutorial, I will describe the routine about C++ background development.  The detail of studying will record in this project. Everyone can refer this project. And, if some refernce is not quote in this project, please let me know. For
+In this tutorial, I will describe the routine about C++ background development.  The detail of studying will record in this project. Everyone can refer this project. And, if some refernce is not quote in this project, please let me know. 
  Our project has 7 parts. The structure can be concluded as following:
 
 ## Basic level (important)
