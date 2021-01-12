@@ -13,9 +13,9 @@ In this tutorial, I will describe the routine about C++ background development. 
 
  3. Data structure and design modle.   [here is blog](https://blog.csdn.net/liupeng19970119/article/details/112182220)
 
- 4. Others of  508.
+ 4. Others of  508.  [here is blog](https://blog.csdn.net/liupeng19970119/article/details/112534631)
 
- 5. Leetcode  coding.
+ 5. Leetcode  coding.    [here is  blog](https://blog.csdn.net/liupeng19970119/article/details/112534733) 
 
 ## Middle level (not so important)
 
