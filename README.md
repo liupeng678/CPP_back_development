@@ -6,7 +6,7 @@
 In this tutorial, I will describe the routine about C++ background development.  The detail of studying will record in this project. Everyone can refer this project. And, if some refernce is not quote in this project, please let me know. 
  Our project has 7 parts. The structure can be concluded as following:
 
- ## How to find a job
+ ## Guide
 
 1. how to regular your time in study and what is enough in your study.
 
