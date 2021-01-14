@@ -8,10 +8,9 @@ In this tutorial, I will describe the routine about C++ background development. 
 
  ## Guide
 
-1. how to regular your time in study and what is enough in your study.
+1. how to prepare c++ end development   [here](https://blog.csdn.net/liupeng19970119/article/details/112559396)
 
-2.  How to find a job ?
-## Basic level (important)
+## Basic level (important) 
  1. Develop and  design software      [here is blog](https://blog.csdn.net/liupeng19970119/article/details/109277739)
 
  2. Introducing  basic grammar of cpp , hard points and STL.  [here is blog](https://blog.csdn.net/liupeng19970119/article/details/112220840)
