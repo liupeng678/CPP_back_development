@@ -1,26 +1,28 @@
 /**************************************************************************
 
-Copyright: Sensetime
+Copyright: SenseTime
 
 Author: Peng Liu
 
 Date:2021-01-09
 
-Description:Provide class about string in STL. 
+Description:Provide class details  about string in STL. 
 
 **************************************************************************/
 
 #include<iostream>
+#include "string.h"
 using namespace std;
 class String{
     public:
         String(const char *str= NULL);
-        String(const char &other);
+        String(const String &other); //constructor
         ~String();
         String &operator +(const String &other);
         String &operator =(const String & other);
         bool operator ==(const String &other);
-        int getLength() const;
+        int getLength() ; // if we use const , it just into local file
+        void display();
     private:
         char *m_data;
 };
@@ -39,7 +41,8 @@ String::String(const String &other){
     if(!other.m_data){
         m_data = 0;
     }
-    m_data[0] = other.m_data[0 = new char[strlen(other.m_data)+1];
+
+    m_data = new char[strlen(other.m_data)+1];
     strcpy(m_data , other.m_data);
 }
 
@@ -50,7 +53,20 @@ String::~String(){
     }
 }
 
+String &String::operator=(const String &other){
+    if(this != &other){
+        delete[] m_data;
+        if(!other.m_data){
+            m_data = NULL;
+        }
+        else{
+            m_data = new char[strlen(other.m_data+1)];
+            strcpy(m_data,other.m_data);
+        }
 
+    }
+    return *this;
+}
 
 String &String::operator +(const String &other){
     String newString;
@@ -68,3 +84,31 @@ String &String::operator +(const String &other){
     return newString;
 }
 
+/* this function first judge whether it is same sapce, if not return flase, if true go next procss.*/
+bool String::operator==(const String &other){
+    if(strlen(other.m_data) != strlen(other.m_data)){
+        return false;
+    }
+    else{
+        return strcmp(m_data , other.m_data)?false:true;
+    }
+}
+
+int String::getLength(){
+    return strlen(m_data);
+}
+
+
+void String::display(){
+    cout<<*m_data<<endl;
+}
+
+int main (){
+    String s1("hello");
+    String s2(s1);
+    String s3 = s1;
+    cout<<s1.getLength()<<endl;
+    s3.display();
+
+
+}
