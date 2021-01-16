@@ -1,3 +1,15 @@
+/**************************************************************************
+
+Copyright: SenseTime
+
+Author: Peng Liu
+
+Date:2021-01-09
+
+Description: this file achieve all of sort algorithm  
+
+**************************************************************************/
+
 #include <iostream>
 using namespace std;
 

@@ -21,7 +21,7 @@ class String{
         String &operator +(const String &other);
         String &operator =(const String & other);
         bool operator ==(const String &other);
-        int getLength() ; // if we use const , it just into local file
+        int getLength() const; // if we use const , it just into local file
         void display();
     private:
         char *m_data;
@@ -94,7 +94,7 @@ bool String::operator==(const String &other){
     }
 }
 
-int String::getLength(){
+int String::getLength() const{
     return strlen(m_data);
 }
 
